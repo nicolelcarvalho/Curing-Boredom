@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Curing Boredom</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-top">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+     		<li class="search"><a href="#"><i class="fa fa-search fa-lg"></i></a></li>
+        <li class="chat"><a href="#"><i class="fa fa-comments-o fa-lg"></i></a></li>
+        <li class="sign-in"><a href="#"><i class="fa fa-user fa-lg"></i></a></li>
+        <li class="user-name-message"></li>
+      </ul>
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="wrapper">
+	<div class="container-fluid">
+
+	<div class="user-input set-width">
+		<div class="row bored-label">
+
+			<div class="col-md-12 text-center">
+				<div class="form-group">
+				  <label for="locations" class="label-heading">CURE MY BOREDOM IN:</label>
+				</div>
+			</div>
+		</div> <!-- End Row -->
+
+		<div class="row bored-input">
+			<div class="col-md-4 text-center zip">
+					<label class="label" for="zip">Zip Code:</label>
+				  <input type="number" maxlength="5" class="form-control" id="zipCode" placeholder="10001">
+			</div>
+
+			<div class="col-md-6 text-center city-state">
+					<label class="label" for="zip">or City, State:</label>
+				  <input type="text" class="form-control" id="cityState" placeholder="New York, NY">
+			</div>
+			
+			<div class="col-md-2 text-center">
+  				<button type="submit" class="btn btn-default bored-submit-button submit-button">Submit</button>
+			</div>
+			<div class="col-md-12 text-center error-message"></div>
+			<div class="col-md-12 text-center no-event-message"></div>
+		</div>
+	</div>
+
+		<div class="row category-buttons">
+			<div class="col-md-12 text-center categories">
+				<button class="category cat-restaurants" id="selected">RESTAURANTS</button>
+				<button class="category cat-events">EVENTS</button>
+			</div>
+		</div> <!-- End Row -->
+
+		<div class="row filters">
+			<div class="col-md-12 text-center">
+				<div class="form-group" id="filterSettings">
+					<!-- Setting options will change upon category clicked and will load dynamically -->
+				  <select class="form-control filters" id="filterList">
+				  </select>
+				</div>
+			</div>
+		</div> <!-- End Row -->
+
+		<div class="row" id="chat">
+				<!-- Chat messages will be dumped here -->
+				<div class="col-xs-12 col-sm-12 col-md-12" id="chat-heading">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12" id="chat-filter">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12" id="chat-messages">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12" id="chat-input">
+				</div>
+		</div> <!-- End Row -->
+
+		<div class="row" id="eventView">
+				<!-- Event information will be dumped here -->
+				<div class="col-xs-7 col-sm-7 col-md-7" id="eventInfo">
+				</div>
+				<!-- Event images will be dumped here -->
+				<div class="col-xs-5 col-sm-5 col-md-5" id="eventImage">
+				</div>
+		</div> <!-- End Row -->
+
+	</div> <!-- End Container -->
+</div> <!-- End Wrapper -->
+
+<footer>
+	<nav class="navbar navbar-default navbar-fixed-bottom navbar-bottom">
+	  <div class="container-fluid">
+	      <ul class="nav navbar-nav">
+	     		<li class="search"><a href="#"><i class="fa fa-search fa-lg"></i></a></li>
+	        <li class="chat"><a href="#"><i class="fa fa-comments-o fa-lg"></i></a></li>
+	        <li class="sign-in"><a href="#"><i class="fa fa-user fa-lg"></i></a></li>
+        	<li class="user-name-message"></li>
+	      </ul>
+	  </div><!-- /.container-fluid -->
+	</nav>
+</footer>
+<!-- JavaScript File -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd64Nz6KSC95FW4ZapCkkmyymF4gPcANg" async defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>

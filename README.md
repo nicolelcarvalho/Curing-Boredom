@@ -1,1 +1,2 @@
-# Curing-Boredom-Group-Project
+# CuringBoredom
+Project 1 - Curing Boredom

@@ -22,7 +22,10 @@ Curing Boredom is an app that allows users to find restaurants and events in the
 ### Search:
 ![searchdemo](searchDemo.gif)
 
-### Login/Chat Features:
+### Login:
+![logindemo](loginDemo.gif)
+
+### Chat:
 ![chatdemo](chatDemo.gif)
 
 ## Tech used

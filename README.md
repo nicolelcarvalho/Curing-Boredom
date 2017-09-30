@@ -17,6 +17,12 @@ Curing Boredom is an app that allows users to find restaurants and events in the
 * Users can also create a login to utilize a chat feature. This feature allows users to chat about places they currently are or get opinions from others on places they've been. 
 * Users can also filter through the chat using keywords to see what people are saying about specific places they are interested in. 
 
+## Demonstrations
+
+![searchdemo](searchDemo.gif)
+
+![chatdemo](chatdemo.gif)
+
 ## Tech used
 - HTML
 - CSS

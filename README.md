@@ -1,5 +1,5 @@
 # Curing Boredom
-A Dynamic Web Application - Group Project
+A Dynamic Web Application
 
 Created during Week 4 of Rutgers Coding Bootcamp with 2 other group members. The challenge was to create a web application that constituted of a minimum of 2 APIs, using AJAX to pull data and a polished UI that utilizes Bootstrap. 
 
@@ -9,7 +9,7 @@ Curing Boredom is an app that allows users to find restaurants and events in the
 
 ## Utilizing the App
 
-* View the app: [Github Pages Project Link](https://nicolelcarvalho.github.io/Curing-Boredom-Group-Project/)
+* View the app: [Github Pages Project Link](https://nicolelcarvalho.github.io/Curing-Boredom/)
 
 * Restaurants in NYC are displayed by default, just to give users a sense of how the app looks and works. 
 * Type in a zip code or city/state to search results in a specific area.
@@ -20,13 +20,13 @@ Curing Boredom is an app that allows users to find restaurants and events in the
 ## Demonstrations
 
 ### Search:
-![searchdemo](searchDemo.gif)
+![searchdemo](assets/demos/searchDemo.gif)
 
 ### Login:
-![logindemo](loginDemo.gif)
+![logindemo](assets/demos/loginDemo.gif)
 
 ### Chat:
-![chatdemo](chatDemo.gif)
+![chatdemo](assets/demos/chatDemo.gif)
 
 ## Tech used
 - HTML
